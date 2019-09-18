@@ -28,8 +28,6 @@ header {
    /* -o-background-size: 100%; /* Opera 9.6+ */
    /* background-size: 100%; /* Современные браузеры */
     color: #fff;
-    text-transform: uppercase;  
-    padding-top: 50px;
     padding-bottom: 80px;
 }
 
@@ -37,6 +35,7 @@ header {
     display: flex;
     justify-content: space-between;
     margin-bottom: 280px;
+    padding-top: 20px;
 }
 
 .header_logo  {
@@ -203,7 +202,7 @@ header {
     font-family: "Museo Sans Cyrl 300";
     color: #60615a;
     padding-top: 25px;
-    padding-left: 84px;
+    padding-left: 20px;
 }
 
 .skills_heading {
@@ -212,6 +211,7 @@ header {
 
 .skills_skills {
     display: flex;
+    justify-content: space-around;
     padding-bottom: 80px;
 }
 
@@ -219,29 +219,27 @@ header {
     background: url(../img/skills_bg.png) no-repeat;
     width: 61px;
     height: 61px;
-    margin-right: 25px;
+    text-align: center;
+    text-align: -moz-center;
 }
 
-.skills_skills p {
-    line-height: 4.1em;
-    margin-right: 95px;
+.skill_names {
+    margin-left: 70px;
+    margin-top: -40px;
     font-family: "Museo Sans Cyrl Bold";
     text-transform: uppercase;
     color: #3a3c34;
-}
+} 
 
-.skills_skills img {
-    display: none;
-}
 
-.skill p {
+.skill_percent {
     font-family: "Museo Sans Cyrl";
     text-align: center;
     font-size: 13px;
     color: #3d6434;
     line-height: 4.9em;
     margin: 0 auto;
-}
+} 
 
 #works {
     padding-bottom: 100px;
@@ -259,22 +257,30 @@ header {
 }
 
 .works_detailed_img1 {
-    background: url(../img/works1.png) no-repeat;
-    width: 300px;
-    height: 299px;
+    /* background: url(../img/works1.png) no-repeat; */
+    background: url(../img/one_section.jpg) no-repeat;
+    background-size: cover;
 }
 
 .works_detailed_img2 {
-    background: url(../img/works2.png) no-repeat;
+    /* background: url(../img/works2.png) no-repeat; */
+    background: url(../img/my_company.jpg) no-repeat;
+    background-size: cover;
+}
+
+.works_detailed_img3 {
+    /* background: url(../img/works3.png) no-repeat; */
+    background: url(../img/residential_building.jpg) no-repeat;
+    background-size: cover;
+}
+
+.works_detailed_img1,
+.works_detailed_img2,
+.works_detailed_img3 {
     width: 300px;
     height: 299px;
 }
 
-.works_detailed_img3 {
-    background: url(../img/works3.png) no-repeat;
-    width: 300px;
-    height: 299px;
-}
 
 .works_detailed {
     display: none;

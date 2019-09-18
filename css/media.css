@@ -74,15 +74,15 @@
         justify-content: space-around;
     }
 
+    .about_me_communication_turn p {
+        margin-left: 75px;
+    }
+
     .about_me_communication_turn img {
         display: none;
     }
 
-    .skills_skills p {
-        margin-right: 35px;
-    }
-
-    .skill p {
+    .skill_percent {
         margin: 0 auto;
     }
 
@@ -90,18 +90,9 @@
         display: block;
     }
     
-    .works_detailed_img1,
-    .works_detailed_img3 {
-        margin-bottom: 20px;
-    }
-
-    .works_detailed_img2 {
+    .works_detailed_img {
         margin: 0 auto;
-        margin-bottom: 20px;
-    }
-
-    .works_detailed_img3 {
-        float: right;  
+        margin-bottom: 30px;
     }
 
     footer .rights {
@@ -117,13 +108,17 @@
         width: 540px;
     }
 
+    .header_logo {
+
+    }
+
     .header_menu nav {
        text-align: center;
         margin-top: -23px;
     }
 
-    .header_menu ul {
-        display: block;
+    .header_menu {
+        padding-top: 20px;
     }
 
     .header_menu li {
@@ -131,8 +126,13 @@
         letter-spacing: 0.09em;
     }
 
+    .header_email {
+        display: none;
+    }
+
     .header_heading h1 {
         line-height: 1.5em;
+        font-size: 2.000em;
     }
 
     .about_me_background {
@@ -141,26 +141,14 @@
         margin-bottom: 100px;
     }
 
-    .skills_skills  {
+    .skills_skills {
         display: block;
+        width: 150px;
+        margin: 0 auto;
     }
-
-    .skills_skills  .skill p {
-        display: none;
+    .skill {
+        margin-bottom: 20px;
     }
-
-    .skills_skills img {
-        display: block;
-      
-    }
-
-    .skills_skills .skill {
-        float: left;
-        margin-bottom: 50px;
-    }
-
-
-
 }
 
 
@@ -176,16 +164,21 @@
     }
     .header_logo {
         margin-bottom: 20px;
+        text-align: center;
     }
 
-    .header_menu nav {
-        margin-top: 0;
-        text-align: left;
-        margin-bottom: 20px;
+    .header_menu {
+        margin-top: 50px;
+    }
+
+    .header_menu ul {
+        justify-content: space-around;
+        margin-left: -20px;
+
     }
     
     .header_heading h1 {
-        font-size: 35px;
+        font-size: 1.667em
     }
 
     .header_heading p {
@@ -193,7 +186,12 @@
     }
 
     .header_heading {
-        margin-bottom: 150px;
+        margin-bottom: 100px;
+    }
+
+    .about_me_communication_a {
+        margin: 0 auto;
+        width: 170px;
     }
 
     .about_me_merits_wraper {
@@ -222,15 +220,22 @@
         padding-left: 10px;
     }
 
-    .skills_skills .skill {
+    .skill {
+        display: block;
+    }
+
+    /* .skills_skills .skill {
         margin-bottom: 0;
     }
     .skills_skills p {
         margin-bottom: 20px;
+    } */
+
+    .works_detailed_img {
+        width: 100%;
     }
 
     .works_detailed_img1,
-    
     .works_detailed_img2 {
         margin: 20px auto;
     }
